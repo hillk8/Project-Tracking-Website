@@ -1,0 +1,26 @@
+Todo List  ** Refer back to the README.md file throughout the project for useful resources**
+
+1. Research techniques to test sites on all devices.
+2. Research toggle switch in Javascript
+3. Look at all the Github resources on the README.md file (line 43)
+
+
+**Design Notes********************
+
+1. <html> width: 1440px. Grid of (gtc: 2fr 2fr; gtr: 2fr 2fr;);
+
+2. Cell phone img's on <html> background ( grid-row: 1 / span 2; );(z-index? to get in front of blue box background?);
+
+3. Blue box behind cell ph. img's could be grid-column (2 / 3) and grid-row (1 / 2) in the <html> with rounded borders.
+
+4.Blue Box - border-radius: 0px 0px 0px 50px;
+            -moz-border-radius: 0px 0px 0px 50px;
+            -webkit-border-radius: 0px 0px 0px 50px;
+            border: 0px solid #ffffff;
+            background-color: #EDF2F6;
+
+5. <body> width: 1176px (.wrapper = width: 1110px; and padding: 0 33px; Grid 0f (gtc: 2fr 2fr; gtr: 2fr 2fr;));
+
+
+
+
