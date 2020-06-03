@@ -37,14 +37,15 @@
 // }
 
 .blueBg {
-      background-color: $blueBg;
-      height: 428px;
-      width: 706px;
-      z-index: -1;
-      position: absolute;
-      left: 51%;
-      border-radius: 0 0 0 60px;
-  }
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: hsl(207, 33%, 95%);
+  width: 11.7rem;
+  height: 27rem;
+  border-radius: 0 0 0 70px;
+  z-index: -1;
+}
 
 .nav {
     width: 100vw;
