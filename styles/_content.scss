@@ -78,7 +78,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
   }
   
   // This is for mobile view
@@ -91,7 +90,7 @@
   }
 
   .hero {
-   
+    overflow: hidden;
 
       &-img {
         height: 13.8em;
