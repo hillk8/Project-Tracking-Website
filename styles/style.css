@@ -16,7 +16,7 @@ body {
   line-height: 1.2;
   font-family: 'Barlow', sans-serif;
   font-size: 18px;
-  max-width: 23.22em;
+  max-width: 100vw;
   max-height: 100vh;
   position: absolute;
 }
@@ -46,7 +46,7 @@ h3 {
 .blueBg {
   position: absolute;
   top: 0;
-  right: 032px;
+  right: 0;
   background-color: #eef3f6;
   width: 11.7rem;
   height: 27rem;
@@ -110,10 +110,6 @@ h3 {
 
 .main-content {
   margin-left: 1.2em;
-}
-
-.hero {
-  overflow: hidden;
 }
 
 .hero-img {

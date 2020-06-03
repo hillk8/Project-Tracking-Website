@@ -39,7 +39,7 @@
 .blueBg {
   position: absolute;
   top: 0;
-  right: 032px;
+  right: 0;
   background-color: hsl(207, 33%, 95%);
   width: 11.7rem;
   height: 27rem;
@@ -90,7 +90,7 @@
   }
 
   .hero {
-    overflow: hidden;
+   
 
       &-img {
         height: 13.8em;
