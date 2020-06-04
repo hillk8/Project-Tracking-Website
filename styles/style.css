@@ -43,17 +43,6 @@ h3 {
 
 /*Colors*/
 /*Components*/
-.blueBg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: #eef3f6;
-  width: 11.7rem;
-  height: 27rem;
-  border-radius: 0 0 0 70px;
-  z-index: -1;
-}
-
 .nav {
   margin: 1.6em 0 2.69em -2.1em;
 }
@@ -81,6 +70,61 @@ h3 {
 .nav li:first-child {
   margin-right: auto;
   margin-left: 2em;
+}
+
+.nav-menu {
+  margin-bottom: 2px;
+}
+
+.nav-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-sub-nav {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  margin: 0 0 -219px 0;
+  padding: 0;
+  height: 4em;
+  line-height: 2.6;
+  -webkit-box-shadow: 1px 9px 23px -2px black;
+          box-shadow: 1px 9px 23px -2px black;
+  width: 313px;
+  height: 229px;
+  position: relative;
+  z-index: 1;
+}
+
+.nav-sub-nav-a-links {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
 }
 
 .wrapper {
@@ -117,7 +161,6 @@ h3 {
   margin-bottom: 4em;
 }
 
-/*START FIXING CODE BELOW HERE*/
 .monograph {
   font-size: 1em;
   word-spacing: 10px;
