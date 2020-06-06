@@ -94,6 +94,8 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: fadeIn .4s;
+          animation: fadeIn .4s;
 }
 
 .nav-sub-nav {
@@ -118,6 +120,7 @@ h3 {
   line-height: 2.6;
   -webkit-box-shadow: 1px 12px 37px 0px black;
           box-shadow: 1px 12px 37px 0px black;
+  border-radius: 7px;
   width: 313px;
   height: 229px;
   position: relative;
@@ -129,6 +132,8 @@ h3 {
   color: #000000;
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 700;
+  -webkit-animation: fadeIn .6s;
+          animation: fadeIn .6s;
 }
 
 .wrapper {
@@ -220,6 +225,24 @@ button {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=style.css.map */
