@@ -27,14 +27,14 @@ h3 {
 
 /*Add this class to elements to hide for mobile*/
 .hide-for-mobile {
-    @include breakpoint-down(medium){
+    @include breakpoint-down(small){
         display: none;
     }
 }
 
 /*Add this class to elements to hide for desktop*/
 .hide-for-desktop {
-    @include breakpoint-up (large){
+    @include breakpoint-up (medium){
         display: none;
     }
 }

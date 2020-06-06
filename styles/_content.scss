@@ -137,3 +137,9 @@ button {
   word-spacing: 0.56em;
 }
 
+@media screen and (min-width: 1136px){
+  .main-content:first-child{
+    order: 0;
+  }
+}
+
