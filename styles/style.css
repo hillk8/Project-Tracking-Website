@@ -180,8 +180,13 @@ h3 {
 }
 
 .hero-img {
+<<<<<<< HEAD
   margin-bottom: 4.5rem;
   height: 13.8em;
+=======
+  height: 13.8em;
+  margin-bottom: 4em;
+>>>>>>> parent of 54699ea... Converted all to rems
 }
 
 .monograph {
