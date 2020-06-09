@@ -1,7 +1,6 @@
 html {
     max-width: 100vw;
     max-height: 100vh;
-    font-size: 18px;
     box-sizing: border-box;
 }
 
@@ -14,9 +13,10 @@ body {
     padding: 0;
     line-height: 1.2;
     font-family: 'Barlow', sans-serif;
+    font-size: 18px;
     max-width: 100vw;
     max-height: 100vh;
-    min-width: 25rem;
+    min-width: 400px;
 }
 
 h1,

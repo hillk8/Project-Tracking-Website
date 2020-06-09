@@ -1,7 +1,6 @@
 html {
   max-width: 100vw;
   max-height: 100vh;
-  font-size: 18px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -16,9 +15,10 @@ body {
   padding: 0;
   line-height: 1.2;
   font-family: 'Barlow', sans-serif;
+  font-size: 18px;
   max-width: 100vw;
   max-height: 100vh;
-  min-width: 25rem;
+  min-width: 400px;
 }
 
 h1,
@@ -44,7 +44,7 @@ h3 {
 /*Colors*/
 /*Components*/
 .nav {
-  margin: 1.8rem 0 3.03rem -3.03rem;
+  margin: 1.6em 0 2.69em -2.1em;
 }
 
 .nav ul {
@@ -60,16 +60,20 @@ h3 {
           align-items: center;
   margin: 0;
   padding: 0;
-  height: 3.37rem;
+  height: 3em;
 }
 
 .nav ul li {
-  padding: 2.25rem;
+  padding: 2em;
 }
 
 .nav li:first-child {
   margin-right: auto;
   margin-left: 2em;
+}
+
+.nav-menu {
+  margin-bottom: 2px;
 }
 
 .toggle {
@@ -110,14 +114,15 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
   background-color: #ffffff;
-  margin: 0 0 -13.7rem 0;
+  margin: 0 0 -219px 0;
   padding: 0;
+  height: 4em;
   line-height: 2.6;
   -webkit-box-shadow: 1px 12px 37px 0px black;
           box-shadow: 1px 12px 37px 0px black;
   border-radius: 7px;
-  width: 19.57rem;
-  height: 14.32rem;
+  width: 313px;
+  height: 229px;
   position: relative;
   z-index: 1;
 }
@@ -132,7 +137,7 @@ h3 {
 }
 
 .wrapper {
-  margin: 2.09rem 2.09rem 2.09rem .68rem;
+  margin: 1.86em 1.86em 1.86em 0.6em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,7 +162,7 @@ h3 {
 }
 
 .main-content {
-  margin-left: 1.35rem;
+  margin-left: 1.2em;
 }
 
 .hero {
@@ -175,24 +180,29 @@ h3 {
 }
 
 .hero-img {
+<<<<<<< HEAD
   width: 100vw;
   margin-bottom: 4.5rem;
+=======
+  height: 13.8em;
+  margin-bottom: 4em;
+>>>>>>> parent of 54699ea... Converted all to rems
 }
 
 .monograph {
-  font-size: 1.125rem;
-  word-spacing: 0.625rem;
-  margin-bottom: 1.0125rem;
+  font-size: 1em;
+  word-spacing: 10px;
+  margin-bottom: 0.9em;
 }
 
 .button-psuedo {
-  font-size: 0.875rem;
+  font-size: 14px;
   font-family: 'Barlow', sans-serif;
   font-weight: 700;
   color: #ffffff;
   background-color: #000000;
   border-radius: 38%;
-  padding: 0.1875rem 0.5625rem 0.3125rem 0.5625rem;
+  padding: 3px 9px 5px 9px;
 }
 
 h2 {
@@ -204,11 +214,11 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3728rem;
+  font-size: 1.22em;
   font-family: 'Barlow', sans-serif;
   font-weight: 400;
-  line-height: 1.8353rem;
-  margin-bottom: 1.9218rem;
+  line-height: 1.2em;
+  margin-bottom: 1.4em;
 }
 
 button {
@@ -218,15 +228,15 @@ button {
   padding: 0.83em 2.13em;
   color: #ffffff;
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 0.9114rem;
+  font-size: .9em;
   font-weight: 700;
 }
 
 .button {
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 1.0125rem;
+  font-size: .9em;
   font-weight: 400;
-  word-spacing: 0.567rem;
+  word-spacing: 0.56em;
 }
 
 @media screen and (min-width: 1136px) {
