@@ -13,20 +13,6 @@ body {
   font-size: var(--font-size);
 }
 
-/*Add this class to elements to hide for mobile*/
-@media (max-width: 769px) {
-  .hide-for-mobile {
-    display: none;
-  }
-}
-
-/*Add this class to elements to hide for desktop*/
-@media (min-width: 770px) {
-  .hide-for-desktop {
-    display: none;
-  }
-}
-
 /*Colors*/
 /*Components*/
 header::before {

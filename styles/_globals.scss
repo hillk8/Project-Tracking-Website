@@ -10,18 +10,4 @@ body {
     margin: 0;
     font-family: 'Barlow', sans-serif;
     font-size: var(--font-size);
-  }
-
-/*Add this class to elements to hide for mobile*/
-.hide-for-mobile {
-    @include breakpoint-down(small){
-        display: none;
-    }
-}
-
-/*Add this class to elements to hide for desktop*/
-.hide-for-desktop {
-    @include breakpoint-up (medium){
-        display: none;
-    }
 }
