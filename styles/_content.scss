@@ -54,7 +54,7 @@ header {
 }
 
 .wrapper {
-  margin: 2rem;
+  margin: 2rem auto;
   display: flex;
   flex-direction: column;
 }
@@ -134,9 +134,66 @@ button {
   }
 }
 
+//Mobile view
 @media screen and (max-width: 689px){
+  header::before {
+    height: 48%;
+  }
+
   .nav-desktop {
     display: none;
+  }
+
+  header {
+    margin-bottom: 4.1rem;
+  }
+
+  .nav {
+    margin-bottom: 0;
+  }
+
+  .nav li:first-child {
+    margin-left: 1.9rem;
+    margin-top: 0.1rem;
+  }
+
+  .nav li:nth-child(6) {
+    margin: 1.4rem 1.1rem 0 0;
+  }
+
+  .nav ul {
+    margin-right: 0.9rem;
+  }
+
+  .main-content {
+    margin-left: 2rem;
+  }
+
+  .monograph {
+    margin-bottom: -0.878rem;
+    word-spacing: 0.5rem;
+  }
+
+  h2 {
+    font-size: 2.55rem;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 1.12rem;
+    margin-bottom: 1.7rem;
+  }
+
+  .button {
+    font-size: 0.8rem;
+    word-spacing: 0.02rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 0.8406rem 1.7rem;
+    margin-right: 0.8rem;
+    letter-spacing: 0.08rem;
   }
 }
 
