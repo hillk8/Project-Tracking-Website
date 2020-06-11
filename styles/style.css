@@ -13,6 +13,20 @@ body {
   font-size: 18px;
 }
 
+/*Add this class to elements to hide for mobile*/
+@media (max-width: 769px) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+/*Add this class to elements to hide for desktop*/
+@media (min-width: 770px) {
+  .hide-for-desktop {
+    display: none;
+  }
+}
+
 /*Colors*/
 /*Components*/
 header::before {
@@ -70,8 +84,68 @@ header {
   margin: 2.9rem 2rem 0 0;
 }
 
+.toggle {
+  display: none;
+}
+
 .nav-desktop {
   padding: 4rem 2rem 0 0;
+}
+
+.nav-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: fadeIn .4s;
+          animation: fadeIn .4s;
+  z-index: 999;
+}
+
+.nav-sub-nav {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  margin: 0 0 -219px 0;
+  padding: 0;
+  height: 4em;
+  line-height: 2.6;
+  -webkit-box-shadow: 1px 12px 37px 0px black;
+          box-shadow: 1px 12px 37px 0px black;
+  border-radius: 7px;
+  width: 313px;
+  height: 229px;
+  position: relative;
+}
+
+.nav-sub-nav-a-links {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  -webkit-animation: fadeIn .6s;
+          animation: fadeIn .6s;
 }
 
 .wrapper {
@@ -90,10 +164,12 @@ header {
   margin-top: -0.875rem;
   right: 0;
   position: absolute;
+  z-index: -1;
 }
 
 .main-content {
   margin-left: 8.8rem;
+  z-index: 0;
 }
 
 .monograph {
@@ -260,6 +336,24 @@ button {
 @media screen and (max-width: 1150px) {
   .hero {
     position: relative;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -47,8 +47,47 @@ header {
   }
 }
 
+.toggle {
+  display: none;
+}
+
 .nav-desktop {
   padding: 4rem 2rem 0 0;
+}
+
+.nav-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn .4s;
+  z-index: 999;
+}
+
+.nav-sub-nav{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 0 0 -219px 0;
+  padding: 0;
+  height: 4em;
+  line-height: 2.6;
+  box-shadow: 1px 12px 37px 0px rgba(0,0,0,1);
+  border-radius: 7px;;
+  width: 313px;
+  height: 229px;
+  position: relative;
+}
+
+.nav-sub-nav-a-links {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  animation: fadeIn .6s;
 }
 
 .wrapper {
@@ -62,10 +101,12 @@ header {
   margin-top: -0.875rem;
   right: 0;
   position: absolute;
+  z-index: -1;
 }
 
 .main-content {
   margin-left: 8.8rem;
+  z-index: 0;
 }
 
 .monograph {
@@ -246,22 +287,11 @@ button {
   }
 }
 
-// This is for mobile view
-// .main-content:first-child{
-//   order: 1;
-// }
-
-// @media screen and (min-width: 1136px){
-//   .main-content:first-child{
-//     order: 0;
-//   }
-// }
-
-// @keyframes fadeIn {
-//   from{
-//     opacity: 0;
-//   }to {
-//     opacity: 1;
-//   }
-// }
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }to {
+    opacity: 1;
+  }
+}
 

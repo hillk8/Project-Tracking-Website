@@ -23,7 +23,9 @@
         <li class="nav-desktop">PRICING</li>
         <li class="nav-desktop">LOGIN</li>
         <li class="nav-mobile">
-          <img src="images/icon-hamburger.svg" alt="mobile nav"/>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img class="nav-menu " src="images/icon-hamburger.svg" alt="mobile nav"/>
+          </a>
         </li>
         <!-- <li>
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -32,11 +34,21 @@
         </li> -->
       </ul>
     </div>
-  </header>
 
-  <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <img class="nav-menu hide-for-desktop" src="images/icon-hamburger.svg" alt="Mobile Menu">
-      </a> -->
+    <div class="hide-for-desktop">
+      <div class="toggle">
+        <div class="nav-mobile">
+          <ul class="nav-sub-nav">
+              <li class="nav-sub-nav-links"><a href="#" class="nav-sub-nav-a-links">Product</a></li>
+              <li class="nav-sub-nav-links"><a href="#" class="nav-sub-nav-a-links">Features</a></li>
+              <li class="nav-sub-nav-links"><a href="#" class="nav-sub-nav-a-links">Pricing</a></li>
+              <li class="nav-sub-nav-links"><a href="#" class="nav-sub-nav-a-links">Login</a></li>       
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </header>
 
   <section class="wrapper">
     <img class="hero" src="images/illustration-devices.png" />
