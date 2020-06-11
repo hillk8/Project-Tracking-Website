@@ -33,7 +33,7 @@ header {
 
 .nav {
   width: 100vw;
-  margin-bottom: 11rem;
+  margin-bottom: 9.5rem;
 }
 
 .nav ul {
@@ -51,20 +51,18 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 8rem;
+  margin-right: 5.5rem;
   padding: 0;
-  height: 3rem;
 }
 
 .nav li:first-child {
   margin-right: auto;
-  margin-left: 8rem;
+  margin-left: 8.9rem;
   margin-top: 1.8rem;
   padding: 2rem 2rem 0 0;
 }
 
 .nav li:nth-child(5) {
-  margin-right: 2rem;
   color: #878b97;
 }
 
@@ -89,13 +87,13 @@ header {
 
 .hero {
   width: 100%;
-  margin-bottom: 4.5rem;
+  margin-top: -0.875rem;
   right: 0;
   position: absolute;
 }
 
 .main-content {
-  margin-left: 6rem;
+  margin-left: 8.8rem;
 }
 
 .monograph {
