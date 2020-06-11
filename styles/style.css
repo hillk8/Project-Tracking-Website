@@ -69,6 +69,12 @@ header {
   padding: 0;
 }
 
+.nav ul li:hover {
+  text-decoration: underline;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
 .nav li:first-child {
   margin-right: auto;
   margin-left: 8.9rem;
